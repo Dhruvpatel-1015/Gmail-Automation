@@ -2,8 +2,6 @@
 
 A Python-based Gmail automation system using secure OAuth2 authentication and a modular architecture. Designed for AI agent workflows and email automation.
 
----
-
 🚀 Features
 
 - Gmail OAuth2 authentication
@@ -11,24 +9,6 @@ A Python-based Gmail automation system using secure OAuth2 authentication and a 
 - Secure environment variable handling
 - Clean modular project structure
 
----
-🗂 Project Structure
-
-ai_latest_development/
-│── src/
-│ └── ai_latest_development/
-│ ├── gmail_automation/
-│ │ ├── email_agents.py
-│ │ ├── gmail_client.py
-│ │ ├── credentials.json (user provided)
-│ │ ├── token.json (auto-generated)
-│ ├── tools/
-│ ├── config/
-│ ├── crew.py
-│ ├── main.py
-│── .env
-│── pyproject.toml
-│── requirements.txt
 
 🛠 Prerequisites
 
@@ -36,7 +16,6 @@ ai_latest_development/
 - Google account
 - Gmail API enabled in Google Cloud Console
 
----
 
 ⚙️ Installation
 
